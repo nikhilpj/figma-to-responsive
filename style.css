@@ -7,18 +7,16 @@ body{
 
 /* container for image showing time and battery */
 .navbar-battery-img{
-    width: 328px;
+    width: 100%;
     height: 13px;
     margin-top: 20px;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 23px;
     
    
 }
 
 .navbar-battery-img img{
-    overflow: hidden;
+    
     width: 100%;
     height: 100%;
 }
@@ -300,6 +298,11 @@ margin-top: 16px;
     font-weight: 500;
     font-size: 12px;
     line-height: 15.6px;
+}
+
+.app-advertisement-input input{
+    width: 296px;
+    height: 48px;
 }
 
 
